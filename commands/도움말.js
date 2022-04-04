@@ -15,6 +15,10 @@ module.exports = {
         .addField('t.경고', '경고를 줍니다 **경고 줄때는 직접 넣어줘야 합니다**')
         .addField('t.패치노트', '패치노트를 보여줍니다!')
         .addField('t.청소', '메세지를 청소 할수있습니다!')
+        .addField('t.재생', '음악을 재생해요!')
+        .addField('t.스킵', '음악을 스킵해요!')
+        .addField('t.현재재생', '음악이 얼마나 재생됐는지 확인 가능!')
+        .addField('t.볼륨', '음악에 소리를 조절해요!')
         message.channel.send({embeds:[help]})
     }
 }
