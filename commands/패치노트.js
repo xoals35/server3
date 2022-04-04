@@ -26,6 +26,7 @@ module.exports = {
     pages = [
       embed1,
       embed2,
+      embed3,
       //....
   
     ];
